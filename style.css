@@ -38,6 +38,11 @@ header{
     padding: 50px 4%;
 }
 
+.interface-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 header > .interface-container{
     display: flex;
     align-items: center;
@@ -65,6 +70,9 @@ header nav ul{
 header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
+}
+header .botao-contato {
+    margin-left: auto;
 }
 
 
@@ -94,7 +102,7 @@ header .botao-contato button:hover{
 }
 
 section.topo-site{
-    padding: 50px 4%;
+    padding: 4% 4%;
 }
 
 section.topo-site .flex{
@@ -115,14 +123,14 @@ section.topo-site .flex{
 
 .topo-site .txt-topo p{
     color: white;
-    margin: 40px 0px;
+    margin: 40px 0;
     font-size: 18px;
 }
 
 #btn-saibamais{
     padding: 5px 15px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     border-radius: 20px;
     background-color: #ff330f;
     border: 0;
