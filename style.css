@@ -235,12 +235,10 @@ form .botao-enviar input:hover{
 }
 
 .flex-2 {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 140px;
-}
-.contato {
-    flex: 1;
+    justify-content: space-between;
+    
 }
 
 .icone-texto {
